@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            Ankur Agrawal
 tagline:          'Senior Software Engineer, Medtronic'
 description:      'Senior Software Engineer, Medtronic'
-url:              http://hyde.getpoole.com
+url:              http://ankur-agrawal.github.io
 baseurl:          /
 
 author:

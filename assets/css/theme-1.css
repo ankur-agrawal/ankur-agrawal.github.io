@@ -9961,7 +9961,7 @@ a.text-dark:focus {
 		min-width: 992px !important
 	}
 	.container {
-		min-width: 992px !important
+		min-width: 992px
 	}
 	.navbar {
 		display: none

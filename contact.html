@@ -2,46 +2,53 @@
 layout: default
 ---
 
+<!--  <form class="signup-form form-inline justify-content-left pt-3">-->
+
+<!--    <div class="form-group">-->
+<!--        <label for="fname">First Name</label>-->
+<!--        <p>-->
+
+<!--            &lt;!&ndash;        <input type="text" id="fname" name="firstname" placeholder="Your name..">&ndash;&gt;-->
+<!--            <input type="text" id="fname" name="firstname" class="form-control mr-md-1 semail" placeholder="Your name..">-->
+<!--            <br><br>-->
+<!--        </p>-->
+<!--    </div>-->
+
+
+<!--    <div class="form-group">-->
+<!--        <label for="lname">Last Name</label>-->
+<!--&lt;!&ndash;        <input type="text" id="lname" name="lastname" placeholder="Your last name..">&ndash;&gt;-->
+<!--        <input type="text" id="lname" name="lastname" class="form-control mr-md-1 semail" placeholder="Your name..">-->
+<!--        <br><br>-->
+<!--    </div>-->
+
+<!--    <div class="form-group">-->
+<!--        <label for="message">Message:</label>-->
+<!--        <br><br>-->
+<!--    </div>-->
+
+<!--    <div class="form-group">-->
+<!--        <textarea id="message" name="message" placeholder="Write something.." style="height:500px"></textarea>-->
+<!--        <br><br>-->
+<!--    </div>-->
+
+<!--    <button class="btn btn-primary">Submit</button>-->
+
+<!--  </form>-->
 <div class="container">
-  <form class="signup-form form-inline justify-content-left pt-3">
+  <form action="action_page.php">
 
-    <div class="form-group">
-        <label for="fname">First Name</label>
-        <p>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <!--        <input type="text" id="fname" name="firstname" placeholder="Your name..">-->
-            <input type="text" id="fname" name="firstname" class="form-control mr-md-1 semail" placeholder="Your name..">
-            <br><br>
-        </p>
-    </div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
 
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <div class="form-group">
-        <label for="lname">Last Name</label>
-<!--        <input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
-        <input type="text" id="lname" name="lastname" class="form-control mr-md-1 semail" placeholder="Your name..">
-        <br><br>
-    </div>
-
-    <div class="form-group">
-        <label for="message">Message:</label>
-        <br><br>
-    </div>
-
-    <div class="form-group">
-        <textarea id="message" name="message" placeholder="Write something.." style="height:500px"></textarea>
-        <br><br>
-    </div>
-
-    <button class="btn btn-primary">Submit</button>
+    <input type="submit" value="Submit">
 
   </form>
 </div>
-
-<!--				<form class="signup-form  -inline justify-content-center pt-3">-->
-<!--					<div class="form-group">-->
-<!--						<label class="sr-only" for="semail">Your email</label>-->
-<!--						<input type="email" id="semail" name="semail1" class="form-control mr-md-1 semail" placeholder="Enter email">-->
-<!--					</div>-->
-<!--					<button type="submit" class="btn btn-primary">Subscribe</button>-->
-<!--				</form>-->

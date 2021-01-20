@@ -5,17 +5,26 @@ layout: default
 <div class="container">
   <form class="signup-form form-inline justify-content-left pt-3">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
     <br><br>
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
 
 
     <br><br>
+    <div class="form-group">
     <label for="message">Message:</label>
+    </div>
     <br><br>
+    <div class="form-group">
     <textarea id="message" name="message" placeholder="Write something.." style="height:500px"></textarea>
+    </div>
     <br><br>
     <button class="btn btn-primary">Submit</button>
 
